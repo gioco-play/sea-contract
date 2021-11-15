@@ -35,5 +35,4 @@ interface SEAServiceInterface
      * @return mixed
      */
     function betLogGrabber(string $op_code, int $past_minutes, string $cache_key);
-
 }
